@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background: #1f2632;
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #cee3e9;
+  font-weight: bold;
+}
+
+.site-nav {
+  position: flex;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 60px;
+  width: 100%;
+  background: #1f2632;
+  box-shadow: 0px 1px 7px -2.5px black;
+}
+
+.side-menu-trigger {
+  margin-top: 5px;
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #cee3e9;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #D24D57;
+  font-size: 20px;
+  transition: color 0.5s ease-in;
+}
+
+.side-menu-trigger:hover {
+  color: #D24D57;
+  cursor: pointer;
+}
+
+.side-menu {
+  box-sizing: border-box;
+  position: absolute;
+  height: 100%;
+  width: 300px;
+  top: 0px;
+  left: -315px;
+  padding: 0;
+  background: #1f2632;
+  transition: 0.3s transform ease-in-out;
+  box-shadow: 0px 3px 4px 0px black;
+}
+
+.side-menu-trigger:focus ~ .side-menu, .side-menu:hover {
+  transform: translateX(315px); 
+}
+
+.portfolioTitle {
+  position: absolute;
+  left: 1750px;
+}
+
+.portfolioTitle1{
+  position: absolute;
+  left: 1780px;
+  top: 25px;
+  color: #D24D57;
+}
+
+.wybor1, .wybor2, .wybor3, .wybor4 {
+  margin-left: 20px;
+  margin-top: 25px;
+  width: 250px;
+  height: 60px;
+  background-color: #354052;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 23px;
+  line-height: 60px;
+  border-left-style: solid;
+  border-left-color: #D24D57;
+
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.wybor2, .wybor3, .wybor4 {
+  margin-top: 25px;
+}
+
+.wybor1:hover, .wybor2:hover, .wybor3:hover, .wybor4:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 4px 0px black;
+}
+
+.footerMenu {
+  text-align: center;
+  margin-top: 500px;
+  height: 125px;
+  box-shadow: 0 -5px 5px -5px black;
+}
+
+.timer {
+  text-align: center;
+  line-height: 115px;
+  font-size: 40px;
+  text-shadow: 2px 2px #D24D57;
+}
+
+.ppg.horizTranslate {
+  -webkit-transition: 2s;
+  -moz-transition: 2s;
+  -ms-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
+  margin-right: 1550px !important;
+}
+
+.ppg {
+  position: absolute;
+  height: 500px;
+  width: 1000px;
+  background-color: red;
+  right: -1100px;
+  top: 250px;
+  background: rgba(53, 64, 82, 0.2);
+  border: 3px solid #D24D57;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 0px black;
+}
+
+.arrow {
+  background-color: red;
+	margin-top: -35px;
+  margin-left: 120px;
+	width: 10px;
+	height: 10px;
+	background: transparent;
+	border-top: 1vmin solid white;
+	border-right: 1vmin solid white;
+	box-shadow: 0 0 0 lightgray;
+	transition: all 200ms ease;
+	transform: rotate(45deg);
+}
+
+.arrow1 {
+  background-color: red;
+  margin-top: -35px;
+  margin-left: 10px;
+	width: 10px;
+	height: 10px;
+	background: transparent;
+	border-top: 1vmin solid white;
+	border-right: 1vmin solid white;
+	box-shadow: 0 0 0 lightgray;
+	transition: all 200ms ease;
+	transform: rotate(-135deg);
+}
+
+.pojemnikStrzalek {
+  position: absolute;
+  margin-top: 515px;
+  margin-left: 515px;
+  width: 150px;
+  height: 50px;
+  background-color: transparent;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+  border: 3px solid #D24D57;
+}
+
+.pojemnikStrzalek1 {
+  position: absolute;
+  margin-top: 515px;
+  margin-left: 315px;
+  width: 150px;
+  height: 50px;
+  background-color: transparent;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+  border: 3px solid #D24D57;
+}
